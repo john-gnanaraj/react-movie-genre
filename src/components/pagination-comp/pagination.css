@@ -1,1 +1,5 @@
 .paginationContainer { text-align: right; }
+.paginationWrap { display: inline-block; margin: 0; padding: 0; }
+.paginationWrap li { display: inline-block; border: 1px solid rgba(0,0,0,0.2); margin: 0 0 0 5px; border-radius: 3px; }
+.paginationWrap li.active { background: rgba(0,0,0,0.2); }
+.paginationWrap li span { font-size: 12px; line-height: 25px; height: 25px; width: 25px; text-align: center; display: inline-block; cursor: pointer; }

@@ -19,8 +19,6 @@ export default function FilteringTableComp(props) {
                             <th className="filter-rating">Rating</th>
                         </tr>                        
                             
-                        {/* {
-                            Object.keys(props.movieList).map((result, index)) */}
                         <tr>
                             <td>{props.movieList.genre}</td>
                             <td>{}</td>
