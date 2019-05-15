@@ -1,0 +1,6 @@
+.lftnavMainContainer { display: inline-block; margin:0 20px 0 0; }
+.lftnavMainContainer ul { margin: 0; padding: 0; }
+.lftnavMainContainer li { list-style: none; text-align: left; width: 150px; transition: all ease 0.5s; }
+.lftnavMainContainer li span { padding: 10px 15px; display: block; }
+.lftnavMainContainer li.active, .lftnavMainContainer li:hover { background: #ccc; }
+

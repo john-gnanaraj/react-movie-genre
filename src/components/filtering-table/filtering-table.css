@@ -1,0 +1,8 @@
+.filteringTableContainer { display: inline-block; vertical-align: top; min-height: 280px; }
+.filteringTableContainer table { display: inline-block; background:#ccc; }
+.filteringTableContainer table * { text-align: left; }
+.filteringTableContainer table th, .filteringTableContainer table td { background:#fff; padding: 5px 10px; }
+.filteringTableContainer tr th:first-child, .filteringTableContainer tr td:first-child { width: 55px; text-align: center; }
+.filteringTableContainer tr th.filter-title { width: 260px; }
+.filteringTableContainer tr th.filter-genre { width: 180px; }
+.filteringTableContainer tr th:last-child, .filteringTableContainer tr td:last-child { width: 60px; text-align: center; }
