@@ -12,7 +12,7 @@ class LeftMenuComponent extends Component {
     render() {
         return(
             <div className="lftnavMainContainer">
-                <ul>{this.props.name.map(values => <li key={values}> {values}</li>)}</ul>
+                <ul>{this.props.name.map(values => <li key={values} className={this.props.name === 'all' ? 'active' : ''}><span>{values}</span></li>)}</ul>
             </div>
         )
     }
@@ -23,3 +23,4 @@ class LeftMenuComponent extends Component {
 export default LeftMenuComponent;
 
 
+// className={props.name === 'import' ? 'active' : 'clr'}

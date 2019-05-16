@@ -1,7 +1,7 @@
-.filteringTableContainer { display: inline-block; vertical-align: top; min-height: 280px; }
-.filteringTableContainer table { display: inline-block; background:#ccc; }
+.filteringTableContainer { display: inline-block; vertical-align: top; min-height: 280px; max-width: 700px; }
+.filteringTableContainer table { display: inline-block; background:#ccc; font-size: 15px; }
 .filteringTableContainer table * { text-align: left; }
-.filteringTableContainer table th, .filteringTableContainer table td { background:#fff; padding: 5px 10px; }
+.filteringTableContainer table th, .filteringTableContainer table td { background:#fff; padding: 5px 10px; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }
 .filteringTableContainer tr th:first-child, .filteringTableContainer tr td:first-child { width: 55px; text-align: center; }
 .filteringTableContainer tr th.filter-title { width: 260px; }
 .filteringTableContainer tr th.filter-genre { width: 180px; }

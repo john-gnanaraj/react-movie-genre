@@ -1,5 +1,4 @@
-{
-    "movies": [
+[
         {
             "id": 1,
             "movie": "The Shawshank Redemption",
@@ -63,7 +62,7 @@
         {
             "id": 11,
             "movie": "Forrest Gump",
-            "genre": ["Comedy"],
+            "genre": ["Crime"],
             "rating": 1
         },
         {
@@ -152,4 +151,4 @@
         }
         
     ]
-}
+

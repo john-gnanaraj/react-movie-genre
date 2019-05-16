@@ -18,7 +18,7 @@ export default class FilteringTableContainer extends React.Component {
         console.log(MoviesDataJson);
         // console.log(this.props.match.params.id)
         return (
-            <FilteringTableComponent movieList={MoviesDataJson} />
+            <FilteringTableComponent movieList={MoviesDataJson} movieRow={this.movieRow} />
         )
     }
 }
